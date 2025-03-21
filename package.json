@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.32.3",
+    "@stackbit/cms-core": "^0.5.4",
+    "@stackbit/sdk": "^0.5.4"
     "astro": "^5.1.5",
     "sharp": "^0.32.5"
   }
