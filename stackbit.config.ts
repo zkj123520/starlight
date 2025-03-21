@@ -4,7 +4,6 @@ import { GitContentSource } from "@stackbit/cms-git";
 export default defineStackbitConfig({
   stackbitVersion: '~0.5.0', 
   nodeVersion: '18',         
-  buildCommand: 'npm run build',
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
